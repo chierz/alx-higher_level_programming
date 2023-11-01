@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-i = 97
-while i <= 122:
-    print(f"{chr(i)}", end="")
-    i=i+1
+j = 97
+while j <= 122:
+    print(chr(j).format(), end="")
+    j += 1
