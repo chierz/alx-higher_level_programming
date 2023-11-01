@@ -1,7 +1,6 @@
 #!/usr/bin/python3
-
 import random
-number = -256 #random.randint(-10000, 10000) # -256 # the_last_digit = -6
+number = random.randint(-10000, 10000) # -256 # the_last_digit = -6
 if number < -9:
     the_last_digit = number % -10
 elif number > 9:
