@@ -4,5 +4,5 @@ while j <= 122:
     if chr(j) == "e" or chr(j) == "q":
         j+=1
         continue
-    print(f"{chr(j)}", end = "")
+    print(chr(j).format(), end="")
     j+=1
