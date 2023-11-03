@@ -9,5 +9,5 @@ elif len(sys.argv) == 2:
 elif len(sys.argv) > 2:
     print("{} arguments:".format(len(sys.argv) - 1))
 while i < len(sys.argv):
-    print("{}: {}".format(j, sys.argv[j]))
-    i = i++
+    print("{}: {}".format(i, sys.argv[i]))
+    i = i + 1
