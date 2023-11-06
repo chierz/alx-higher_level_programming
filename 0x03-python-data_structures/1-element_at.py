@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-#Fxn that returns element of a list at a particular index[idx]
+# Fxn that returns element of a list at a particular index[idx]
 
 def element_at(my_list, idx):
     if idx < 0:
@@ -9,4 +9,3 @@ def element_at(my_list, idx):
         return None
     else:
         return my_list[idx]
-
