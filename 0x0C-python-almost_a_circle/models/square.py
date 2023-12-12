@@ -13,7 +13,7 @@ class Square(Rectangle):
     def __str__(self):
         """ str representation of the obkject """
         str = f"[Square] ({self.id}) {self.x}/{self.y} - "\
-                f"{self.width}"
+              f"{self.width}"
         return str
 
     @property
@@ -67,5 +67,3 @@ class Square(Rectangle):
                 "x": self.x,
                 "y": self.y
                 }
-if __name__ == "__main__":
-    print(__import__("square").__doc__)
