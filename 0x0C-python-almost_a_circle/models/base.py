@@ -154,3 +154,5 @@ class Base:
             turt.hideturtle()
 
         turtle.exitonclick()
+if __name__ == "__main__":
+    print(__import__("base").__doc__)
